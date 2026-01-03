@@ -2,7 +2,8 @@
 # Hudson - Secure AI Assistant 🤖
 
 A beautiful, secure AI chatbot with advanced guardrails to prevent prompt injection, role abuse, and adversarial attacks. Built with a stunning Gemini-inspired UI and powered by Groq's lightning-fast AI models.
-This is a MVP.
+This is a MVP which has used free-tier-api
+
 ![Hudson Demo](https://img.shields.io/badge/Status-Live-brightgreen) ![Python](https://img.shields.io/badge/Python-3.8+-blue) ![Security](https://img.shields.io/badge/Security-Advanced-red)
 
 ## ✨ Features
