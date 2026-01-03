@@ -28,7 +28,11 @@ Gemini-inspired full-screen UI
 Real AI responses powered by Groq using Llama 3.1
 
 **Repository Structure**
-<img width="564" height="622" alt="image" src="https://github.com/user-attachments/assets/1f61b046-65a7-439e-8584-f9687d747c04" />
+
+<img width="500" height="550" alt="image" src="https://github.com/user-attachments/assets/1f61b046-65a7-439e-8584-f9687d747c04" />
+
+
+
 
 
 **Architecture Overview**
