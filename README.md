@@ -28,32 +28,8 @@ Gemini-inspired full-screen UI
 Real AI responses powered by Groq using Llama 3.1
 
 **Repository Structure**
-.
-├── frontend/
-│   ├── index.html          # Gemini-inspired chat UI
-│   ├── styles.css          # Google color palette & animations
-│   └── chat.js             # Chat logic and API communication
-│
-├── backend/
-│   ├── app.py              # Flask API server
-│   ├── config.py           # Environment configuration
-│   └── session_manager.py  # Sessions, rate limiting
-│
-├── guardrails/
-│   ├── prompt_analyzer.py      # Prompt injection detection
-│   ├── adversarial_detector.py # Evasion & obfuscation detection
-│   └── policy_engine.py        # Policy enforcement
-│
-├── llm_gateway/
-│   └── groq_client.py       # Secure Groq API integration
-│
-├── logging/
-│   └── security_logger.py   # Audit and security logging
-│
-├── tests/                  # Security & functionality tests
-├── docs/                   # Architecture & threat model docs
-├── requirements.txt
-└── README.md
+<img width="564" height="622" alt="image" src="https://github.com/user-attachments/assets/1f61b046-65a7-439e-8584-f9687d747c04" />
+
 
 **Architecture Overview**
 User Interface
