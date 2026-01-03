@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hudson - Secure AI Assistant 🤖
 
 A beautiful, secure AI chatbot with advanced guardrails to prevent prompt injection, role abuse, and adversarial attacks. Built with a stunning Gemini-inspired UI and powered by Groq's lightning-fast AI models.
@@ -194,3 +195,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Made with ❤️ for secure AI conversations**
 
 *Hudson - Where security meets intelligence*
+
+
+
