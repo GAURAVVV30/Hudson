@@ -1,17 +1,17 @@
-Secure AI Assistant (Hudson)
+**Secure AI Assistant (Hudson)**
 
 A security-first conversational AI assistant designed to safely handle user interactions by enforcing guardrails, policy controls, and audit logging before any request reaches the language model.
 
 The project focuses on defending against prompt injection, role abuse, and adversarial inputs, while still allowing legitimate cybersecurity and educational queries.
 
-Overview
+**Overview**
 
 Hudson is built using an enterprise-style modular architecture.
 It provides a modern, full-screen Gemini-inspired web interface while internally applying zero-trust principles to AI prompt handling.
 
 All user input is treated as untrusted and must pass security validation before being processed by the model.
 
-Key Capabilities
+**Key Capabilities**
 
 Prompt injection and jailbreak prevention
 
@@ -27,7 +27,7 @@ Gemini-inspired full-screen UI
 
 Real AI responses powered by Groq using Llama 3.1
 
-Repository Structure
+**Repository Structure**
 .
 ├── frontend/
 │   ├── index.html          # Gemini-inspired chat UI
@@ -55,7 +55,7 @@ Repository Structure
 ├── requirements.txt
 └── README.md
 
-Architecture Overview
+**Architecture Overview**
 User Interface
       ↓
 Backend API (Flask)
@@ -69,31 +69,25 @@ Sanitized AI Response
 
 The language model is never exposed directly to user input.
 
-Audit Logging
-
+**Audit Logging**
 All security-relevant events are logged for monitoring and compliance:
-
 Attack classification
-
 Policy decision (ALLOW / BLOCK)
+ession-level traceability
+imestamped forensic records
+aw user prompts are never stored.
 
-Session-level traceability
+**How to Run the Project**
 
-Timestamped forensic records
-
-Raw user prompts are never stored.
-
-How to Run the Project
-Prerequisites
+**Prerequisites**
 
 Python 3.9+
-
 pip
-
 Valid Groq API key
 
 Modern web browser
 
+**STEPS**
 1. Clone the Repository
 git clone https://github.com/<your-username>/secure-ai-assistant-hudson.git
 cd secure-ai-assistant-hudson
