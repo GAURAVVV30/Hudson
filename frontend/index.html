@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hudson - Secure AI Assistant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <div class="logo-icon">H</div>
+                <h1>Hudson</h1>
+            </div>
+        </header>
+        
+        <main class="chat-container">
+            <div class="welcome-message" id="welcomeMessage">
+                <h2>Hello, I'm Hudson</h2>
+                <p>Your secure AI assistant powered by advanced guardrails. I'm here to help with any questions while keeping our conversation safe and protected.</p>
+            </div>
+            
+            <div class="messages" id="messages"></div>
+            
+            <div class="input-container">
+                <div class="input-wrapper">
+                    <textarea id="messageInput" placeholder="Ask Hudson anything..." maxlength="1000" rows="1"></textarea>
+                    <button id="sendButton" class="send-button">➤</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="chat.js"></script>
+</body>
+</html>
